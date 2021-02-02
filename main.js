@@ -146,5 +146,12 @@ const renderLogin = () => {
 }
 
 window.onload = () => {
+    /*fetch('https://serverless.diegolinares319.vercel.app/api/auth/register', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email: 'usuario@gmail.com', password: '123456' })
+    })*/
     renderApp() 
 }
